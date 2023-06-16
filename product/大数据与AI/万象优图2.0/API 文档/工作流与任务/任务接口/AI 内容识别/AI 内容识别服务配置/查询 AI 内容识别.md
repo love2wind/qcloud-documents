@@ -2,23 +2,6 @@
 
 查询 AI 内容识别服务状态。
 
-<div class="rno-api-explorer">
-    <div class="rno-api-explorer-inner">
-        <div class="rno-api-explorer-hd">
-            <div class="rno-api-explorer-title">
-                推荐使用 API Explorer
-            </div>
-            <a href="https://console.cloud.tencent.com/api/explorer?Product=cos&Version=2018-11-26&Action=DescribeMediaBuckets&SignVersion=" class="rno-api-explorer-btn" hotrep="doc.api.explorerbtn" target="_blank"><i class="rno-icon-explorer"></i>点击调试</a>
-        </div>
-        <div class="rno-api-explorer-body">
-            <div class="rno-api-explorer-cont">
-                API Explorer 提供了在线调用、签名验证、SDK 代码生成和快速检索接口等能力。您可查看每次调用的请求内容和返回结果以及自动生成 SDK 调用示例。
-            </div>
-        </div>
-    </div>
-</div>
-
-
 
 ## 请求
 
@@ -56,8 +39,8 @@ Content-Type: application/xml
 | regions     |  地域信息，例如 ap-shanghai、ap-beijing，若查询多个地域以“,”分隔字符串，支持中国大陆地域，详情请参见 [地域与域名](https://cloud.tencent.com/document/product/460/31066) |string |  否    |
 | bucketNames | 存储桶名称，以“,”分隔，支持多个存储桶，精确搜索  |string |否 |
 | bucketName  | 存储桶名称前缀，前缀搜索        |string |  否       |
-| pageNumber  | 第几页，默认值1    | String | 否     |
-| pageSize    | 每页个数，默认值10 | String | 否     |
+| pageNumber  | 第几页，默认值1    | Int | 否     |
+| pageSize    | 每页个数，默认值10 | Int | 否     |
 
 
 ## 响应

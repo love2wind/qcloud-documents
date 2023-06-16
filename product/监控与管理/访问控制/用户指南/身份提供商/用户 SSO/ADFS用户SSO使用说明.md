@@ -3,7 +3,7 @@ Active Directory Federation Services（ADFS）是 Microsoft's 推出的 Windows 
 
 ## 前提条件
 
-1. 拥有一台在 Windows Server 云服务器。如您需要购买服务器，请参见 [云服务器-购买指南](https://cloud.tencent.com/document/product/213/2179)。
+1. 拥有一台  Windows Server 服务器。如您需要购买服务器，请参见 [云服务器-购买指南](https://cloud.tencent.com/document/product/213/2179)。
 2. 在服务器内进行以下搭建工作。
  - DNS 服务器：将身份认证请求解析到正确的 Federation Service 上。
  - Active Directory域服务（AD DS）：提供对域用户和域设备等对象的创建、查询和修改等功能。
@@ -55,7 +55,7 @@ Active Directory Federation Services（ADFS）是 Microsoft's 推出的 Windows 
 ![](https://qcloudimg.tencent-cloud.cn/raw/7127bb86027acb91b69d35aef98cde0d.png)
 7. 在 CA Type 页面，选择 Root CA，如下图所示：
 ![](https://qcloudimg.tencent-cloud.cn/raw/68c8da2d506bf7f42f3597de0a32e1e4.png)
-8. 在 Private Key 油漆面，选择 Create a new private key，如下图所示：
+8. 在 Private Key 页面，选择 Create a new private key，如下图所示：
 ![](https://qcloudimg.tencent-cloud.cn/raw/9e6fe449caf50343a0a0ff1909f40db5.png)
 ![](https://qcloudimg.tencent-cloud.cn/raw/117ff97b6629d01560aa5f97a49066f8.png)
 ![](https://qcloudimg.tencent-cloud.cn/raw/aeb9d6d7e6a482cad0814737c20d9354.png)

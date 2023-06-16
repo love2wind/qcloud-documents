@@ -35,19 +35,19 @@
 <td>&#10003; </td>
 </tr>
 <tr>
-<td>实时调整带宽<sup>1</sup></td>
-<td>&#10003; </td>
-<td>&#10003; </td>
-</tr>
-<tr>
 <td>IP 资源占用费</td>
 <td>×</td>
 <td>&#10003; </td>
 </tr>
+<tr>
+<td>实时调整带宽</td>
+<td>&#10003; </td>
+<td>&#10003; </td>
+</tr>
 </tbody></table>
-<dx-alert infotype="explain" title="">
-[公网 IP 控制台](https://console.cloud.tencent.com/cvm/eip?rid=8) 仅支持调整 EIP 的带宽，具体操作请参见 [调整网络配置](https://cloud.tencent.com/document/product/1199/41705)；普通公网 IP 的带宽调整请参见 [调整普通公网 IP 网络配置](https://cloud.tencent.com/document/product/213/15517)。
-</dx-alert>
+
+>?[公网 IP 控制台](https://console.cloud.tencent.com/cvm/eip?rid=8) 仅支持调整 EIP 的带宽，具体操作请参见 [调整网络配置](https://cloud.tencent.com/document/product/1199/41705)；普通公网 IP 的带宽调整请参见 [调整普通公网 IP 网络配置](https://cloud.tencent.com/document/product/213/15517)。
+>
 
 
 
@@ -65,7 +65,7 @@
 ### 方式一：在公网 IP 控制台调整
 
 1. 登录 [公网 IP 控制台](https://console.cloud.tencent.com/cvm/eip)。
-2. 在“公网 IP” 页面顶部，选择目的普通公网 IP 所在地域。
+2. 在“公网 IP” 页面顶部，选择目标普通公网 IP 所在地域。
 3. 在公网 IP 列表中找到目标普通公网 IP 所在行的操作列，选择**更多 > 转换为弹性公网 IP**。
 ![](https://qcloudimg.tencent-cloud.cn/raw/4cd1195003398ef725a11f56c4ddb9bc.png)
 4. 在弹出的**转换为弹性公网 IP**窗口中，单击**确定**。</br>
